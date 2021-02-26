@@ -43,8 +43,8 @@ text-align: center;
 
 
 #image {
- width: auto;
-  height: 300px;
+ width: 250px;
+  height: 250px;
   object-fit: cover;
   padding-left: 0.5rem;
 }
