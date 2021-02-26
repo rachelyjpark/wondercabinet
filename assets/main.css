@@ -26,24 +26,27 @@ body {
 .container {
 display: grid;
   grid-gap: 2rem;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: auto auto;
   grid-template-rows: (100%/3);
   grid-template-areas: 
     "header header" 
     "content content sidebar";
   min-height: 100vh;
     padding-right: 1rem;
+
  }
 
 .box {
 text-align: center;
+
 }
 
 
 #image {
- width: 400px;
-  height: 400px;
+ width: auto;
+  height: 300px;
   object-fit: cover;
+  padding-left: 0.5rem;
 }
 
 
