@@ -8,6 +8,8 @@ html {
 }
 
 h1 {
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-size: 40px;
   padding: 10px;
@@ -39,8 +41,8 @@ text-align: center;
 
 
 #image {
- width: 450px;
-  height: 450px;
+ width: 400px;
+  height: 400px;
   object-fit: cover;
 }
 
